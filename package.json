@@ -60,5 +60,9 @@
 		"require": [
 			"@babel/register"
 		]
-	}
+	},
+	"nyc": {
+    "reporter": ["lcov"],
+		"report-dir": "coverage"
+  }
 }
