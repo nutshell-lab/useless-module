@@ -19,6 +19,8 @@
 		"@babel/register": "^7.4.4",
 		"@pika/pack": "^0.3.7",
 		"@pika/plugin-build-node": "^0.3.16",
+		"@pika/plugin-build-types": "^0.3.16",
+		"@pika/plugin-copy-assets": "^0.3.16",
 		"@pika/plugin-standard-pkg": "^0.3.16",
 		"ava": "^1.4.1",
 		"eslint-config-prettier-standard": "^2.0.0",
