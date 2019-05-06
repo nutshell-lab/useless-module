@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["@ava/stage-4"],
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "8.10"
+      }
+    }]
+  ]
+}
