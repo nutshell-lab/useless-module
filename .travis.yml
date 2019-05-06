@@ -3,6 +3,9 @@ node_js:
   - 'node'
   - 'lts/*'
   - '8'
+env:
+  global:
+    - CC_TEST_REPORTER_ID=4755a5481d2e1ee02b87ecae7ef99f609f71c108666f3128f2b110653629fc55
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
